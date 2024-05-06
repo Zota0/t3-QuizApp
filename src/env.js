@@ -26,6 +26,10 @@ export const env = createEnv({
     // DISCORD_CLIENT_SECRET: z.string(),
     GOOGLE_CLIENT_ID: z.string(),
     GOOGLE_CLIENT_SECRET: z.string(),
+    GITHUB_SECRET: z.string(),
+    GITHUB_ID: z.string(),
+    EMAIL_SERVER: z.string(),
+    EMAIL_FROM: z.string(),
   },
 
   /**
